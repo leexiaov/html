@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+// 设置banner的width
+.banner-wrap {
+    display: none;
+}
+img
+{
+    vertical-align: top;
+}
+.banner {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+}
