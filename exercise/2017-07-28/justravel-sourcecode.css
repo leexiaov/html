@@ -1,0 +1,515 @@
+@charset "UTF-8";
+a, del, ins, s, u {
+    // 为文本添加装饰效果,比如下划线等,默认是none，即不应用任何装饰
+    text-decoration: none
+}
+
+html {
+    // 背景色
+    background: #fff;
+    // 字体颜色
+    color: #333;
+    // 字体大小
+    font-size: 12px
+}
+
+blockquote, body, button, dd, dl, fieldset, figure, form, h1, h2, h3, h4,
+h5, h6, input, legend, ol, p, pre, td, textarea, th, ul, xmp {
+    margin: 0;
+    padding: 0
+}
+
+body, button, code, input, kbd, optgroup, option, pre, samp, select, textarea,
+tt {
+    // 行与行之间的间距
+    line-height: 1.5;
+    font-family: tahoma, sans-serif
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    // 指定文本块的对齐方式
+    text-align: left
+}
+
+caption, th {
+    text-align: inherit
+}
+
+.bd .main .sub-intro, .bd .main .title, .download, .ft, .ft .copyright,
+.m-description, .m-footer-nav .item, .m-slider .slider-item, .m-slogon,
+.m-slogon .code, .m-slogon p {
+    text-align: center
+}
+
+menu, ol, ul {
+    list-style: none
+}
+
+fieldset, img {
+    border: 0
+}
+
+button, img, input, object, select, textarea {
+    vertical-align: top
+}
+
+article, aside, audio, canvas, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section, video {
+    display: block
+}
+
+button, h1, h2, h3, h4, h5, h6, input, select, small, textarea {
+    font-size: 100%
+}
+
+address, cite, dfn, em, i, optgroup, var {
+    font-style: normal
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+    content: '\0020'
+}
+
+textarea {
+    overflow: auto
+}
+
+input, textarea {
+    outline: 0
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+::-ms-clear {
+    display: none
+}
+
+::-ms-reveal {
+    display: none
+}
+
+mark {
+    background-color: #ffc40d
+}
+
+a {
+    color: #0069ca
+}
+
+a:hover {
+    color: #f60
+}
+
+.hd {
+    position: relative;
+    height: 450px;
+    background-image: url(http://source.jiulvxing.net/www/banner_v3.jpg);
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    background-color: #f5e8d7;
+    min-width: 960px
+}
+
+.banner, .download, .m-slogon {
+    position: absolute
+}
+
+.m-nav, .m-nav-wrap {
+    height: 50px
+}
+
+
+.banner-wrap {
+}
+
+.banner {
+    width: 100%;
+    max-width: 100%
+}
+
+.m-nav {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    vertical-align: middle;
+    line-height: 2
+}
+
+.m-nav .logo {
+    float: left;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    background: url(http://source.jiulvxing.net/www/3wlogo_white.png) center center no-repeat;
+    width: 100px;
+    height: 50px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%
+}
+
+.m-nav .menu {
+    float: right
+}
+
+.m-nav .menu .item {
+    display: inline-block;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 16px
+}
+
+.m-nav .menu .item a {
+    color: #fff
+}
+
+.m-nav .menu .item.on {
+    border-bottom: solid 1px #fff
+}
+
+.m-slogon {
+    margin-top: 40px;
+    width: 100%;
+    bottom: 10px
+}
+
+.m-slogon p {
+    color: #fff
+}
+
+.m-slogon .logo img {
+    width: 60px
+}
+
+.m-slogon .title img {
+    width: 450px
+}
+
+.m-slogon .intro {
+    line-height: 30px
+}
+
+.m-slogon .code {
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+.m-slogon .code img {
+    width: 110px;
+    max-width: 100%;
+    margin-top: 5px
+}
+
+.download {
+    width: 100%;
+    bottom: -15px
+}
+
+.download .btn {
+    display: inline-block;
+    margin: 10px 10px 30px;
+    background-color: rgba(10, 10, 10, .3)
+}
+
+.download .btn img {
+    width: 130px
+}
+
+.download .btn:hover {
+    opacity: .7
+}
+
+.m-description {
+    position: relative;
+    width: 560px;
+    height: 260px;
+    margin: 10px auto 0;
+    color: #333;
+    background: #fff;
+    opacity: .7
+}
+
+.m-description .m-description-bd {
+    position: absolute;
+    width: 560px;
+    height: 260px;
+    padding-top: 20px
+}
+
+.m-description h3, .m-description p {
+    color: #333
+}
+
+.m-description .title {
+    font-size: 24px;
+    line-height: 2
+}
+
+.m-description p {
+    font-size: 14px;
+    line-height: 26px
+}
+
+.bd {
+    position: relative;
+    background: #fff
+}
+
+.bd .main-wrap {
+    text-align: center
+}
+
+.bd .main {
+    width: 960px;
+    margin: 30px auto
+}
+
+.bd .main .title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #666;
+    line-height: 2
+}
+
+.bd .main .sub-intro {
+    font-size: 14px;
+    color: #999;
+    line-height: 2
+}
+
+.m-slider {
+    overflow: hidden;
+    margin-top: 50px
+}
+
+.m-slider .col {
+    float: left;
+    width: 465px
+}
+
+.m-slider .col.col-1 {
+    float: left
+}
+
+.m-slider .col.col-2 {
+    float: right
+}
+
+.m-slider .slider-item {
+    display: inline-block;
+    width: 465px;
+    margin-bottom: 30px
+}
+
+.m-slider .slider-item .mobile-img {
+    width: 204px;
+    margin-top: 59px
+}
+
+.m-slider .slider-item .screen-shot {
+    display: inline-block;
+    width: 240px;
+    height: 480px;
+    background-image: url(http://source.jiulvxing.net/www/iphone.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain
+}
+
+.m-slider .slider-item .slider-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 60px
+}
+
+.m-slider .slider-item .slider-p {
+    font-size: 14px;
+    color: #666
+}
+
+.m-slider .slider-item.large {
+    height: 600px;
+    padding: 50px 0 40px
+}
+
+.m-slider .slider-item.small {
+    height: 328px
+}
+
+.m-slider .slider-item.item-1 {
+    background-color: #d2ebef
+}
+
+.m-slider .slider-item.item-2 {
+    background-color: #f3f8fb
+}
+
+.m-slider .slider-item.item-3 {
+    background: url(http://source.jiulvxing.net/www/slider1.jpg) center center no-repeat #d2ebef;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.m-slider .slider-item.item-4 {
+    background-color: #e7f6fd
+}
+
+.m-slider .slider-item.item-5 {
+    background: url(http://source.jiulvxing.net/www/slider2.jpg) center center no-repeat #d2ebef;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.ft {
+    background: #f2f2f2;
+    padding: 30px;
+    min-width: 900px
+}
+
+.ft.ft-white {
+    background: #fff
+}
+
+.ft .m-footer-nav {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px
+}
+
+.m-footer-nav .item {
+    display: inline-block;
+    width: 100px;
+    color: #666
+}
+
+.m-footer-nav .item a {
+    color: #666
+}
+
+.ft .copyright {
+    font-size: 12px;
+    color: #666
+}
+
+.m-job {
+    margin-top: 10px
+}
+
+.m-job .jd {
+    margin-bottom: 40px
+}
+
+.m-job li {
+    line-height: 2;
+    color: #929292
+}
+
+.m-job h2 {
+    color: #584f60;
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: 600
+}
+
+.m-job h3 {
+    color: #584f60;
+    font-size: 18px;
+    margin: 15px 0;
+    font-weight: 600
+}
+
+.m-job p {
+    color: #584f60;
+    font-size: 16px
+}
+
+.m-job ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px
+}
+
+.m-job ol li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    line-height: 2;
+    color: #929292;
+    font-size: 14px
+}
+
+.m-doc h1, .m-doc h2, .m-doc h3 {
+    color: #584f60;
+    font-weight: 600
+}
+
+.m-doc h1 {
+    font-size: 32px;
+    margin: 20px 0
+}
+
+.m-doc h2 {
+    font-size: 24px;
+    margin: 20px 0
+}
+
+.m-doc h3 {
+    font-size: 18px;
+    margin: 15px 0
+}
+
+.m-doc p {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 10px
+}
+
+.m-contact h2, .m-contact h3 {
+    color: #584f60;
+    font-weight: 600
+}
+
+.m-contact h2 {
+    font-size: 24px;
+    margin: 20px 0
+}
+
+.m-contact h3 {
+    font-size: 18px;
+    margin: 15px 0
+}
+
+.m-contact p {
+    color: #999;
+    font-size: 16px
+}
+
+
