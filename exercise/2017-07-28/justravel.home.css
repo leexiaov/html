@@ -1,8 +1,22 @@
 @charset "UTF-8";
 
+body {
+    margin: 0;
+}
+
 .banner {
     width: 100%;
     max-width: 100%;
+    position: absolute;
+}
+
+
+.hd {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
 }
 
 ul {
@@ -11,17 +25,9 @@ ul {
     list-style: none;
 }
 
-.hd {
-    position: absolute;
-    width: 100%;
-    max-width: 100%;
-    height: 450px;
-    background: blue;
-}
-
 .menu {
     float: right;
-    margin: 0 10px;
+    margin: 10px 10px;
     display: inline-block;
 }
 
@@ -30,8 +36,47 @@ ul {
     margin: 0 10px;
 }
 
+.on {
+    border-bottom : solid 1px white;
+}
+
 a {
-    color: red;
+    color: white;
     text-decoration: none;
     width: 100px;
 }
+
+.download {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+a:hover {
+    opacity: .7;
+}
+
+img {
+    width: 130px;
+    background-color: rgba(10, 10, 10, .2)
+}
+
+#download_android {
+    /*position: relative;*/
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.logo {
+    float: left;
+    width: 60px;
+    display: inline-block;
+    background: url(http://source.jiulvxing.net/www/3wlogo_white.png) center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%
+}
+
